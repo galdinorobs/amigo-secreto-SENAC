@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    justify-content: center;
+    font-size: 75px;
+    color: rgb(131, 52, 52);
+    padding-bottom: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+.container {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100vh;
+    justify-content: center;
+}
+
+.left,
+.right {
+    padding: 20px;
+    width: 300px;
+}
+
+.right {
+    border-left: 1px solid #ccc;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(209, 82, 82);
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 10px;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+button.add {
+    background-color: rgb(255, 220, 154);
+    color: black;
+    font-weight: 700;
+}
+
+button.sort {
+    background-color: rgb(238, 129, 79);
+    color: black;
+    font-weight: 700;
+}
+
+button.reset {
+    background-color: rgb(255, 75, 75);
+    color: black;
+    font-weight: 700;
+}
+
