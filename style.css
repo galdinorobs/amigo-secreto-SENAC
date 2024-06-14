@@ -58,6 +58,14 @@ input[type="text"] {
     border-radius: 5px;
 }
 
+.participantes {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid rgb(209, 82, 82);
+    border-radius: 5px;
+}
+
 .buttons {
     display: flex;
     justify-content: space-evenly;
