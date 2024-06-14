@@ -4,7 +4,7 @@ const txtAmigo = document.querySelector('.input-amigo');
 const btnAdicionar = document.querySelector('.add');
 const listaParticipantes = document.querySelector('.participantes');
 const mensagemErro = document.querySelector('.mensagem-erro');
-
+const btnReiniciar = document.querySelector('.reset');
 
 btnAdicionar.addEventListener('click', () => {
 
@@ -24,4 +24,11 @@ btnAdicionar.addEventListener('click', () => {
     txtAmigo.value = '';
 }
 
-})
+});
+
+btnReiniciar.addEventListener('click', () => {
+    amigos = [];
+    listaParticipantes.textContent = '';
+    mensagemErro.textContent = '';
+    txtAmigo.value = '';
+});
