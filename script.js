@@ -13,12 +13,7 @@ btnAdicionar.addEventListener('click', () => {
     } else if (amigos.includes(txtAmigo.value)) {
         mensagemErro.textContent = 'ERRO! Nome já inserido';
     } else { mensagemErro.textContent = '';
-    if (listaParticipantes.textContent.length === 0 ) {
-        listaParticipantes.textContent = txtAmigo.value;
-    } 
-    /*else {
-        listaParticipantes.textContent += ", " + txtAmigo.value;
-    }*/
+    
     amigos.push(txtAmigo.value); 
     listaParticipantes.textContent = amigos.join(', ');
     txtAmigo.value = '';
