@@ -72,23 +72,21 @@ button {
     cursor: pointer;
     margin-bottom: 10px;
     border-radius: 15px;
+    color: black;
+    font-weight: 700;
 }
 
-button.add {
+.add {
     background-color: rgb(255, 220, 154);
-    color: black;
-    font-weight: 700;
+
 }
 
-button.sort {
+.sort {
     background-color: rgb(238, 129, 79);
-    color: black;
-    font-weight: 700;
+
 }
 
-button.reset {
+.reset {
     background-color: rgb(255, 75, 75);
-    color: black;
-    font-weight: 700;
 }
 
